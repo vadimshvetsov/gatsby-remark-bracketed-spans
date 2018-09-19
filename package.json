@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-remark-bracketed-spans",
+  "description": "Gatsby remark plugin for adding attributes to span tags in markdown",
+  "version": "1.0.0",
+  "author": "Vadim Shvetsov <vadim@shvetsov.io>",
+  "bugs": {
+    "url": "https://github.com/vadimshvetsov/gatsby-remark-bracketed-spans/issues"
+  },
+  "dependencies": {
+    "remark-bracketed-spans": "^3.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "rimraf": "^2.6.2"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "homepage": "https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-bracketed-spans#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "markdown",
+    "remark"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": ">2.0.0-alpha",
+    "gatsby-transformer-remark": ">2.0.0-alpha"
+  },
+  "private": false,
+  "repository": "https://github.com/vadimshvetsov/gatsby-remark-bracketed-spans"
+}
