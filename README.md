@@ -11,7 +11,7 @@ Adds attributes to span tags to `MarkdownRemark` using [remark-bracketed-spans](
 Leverage remark plugin with syntax below:
 
 ```markdown
-[text in span]{.class .other-class id=anything another=example}
+[text in span]{.class .other-class #anything another=example}
 ```
 
 And get the following html:
