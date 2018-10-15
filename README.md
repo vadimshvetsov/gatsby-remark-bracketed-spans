@@ -8,7 +8,7 @@ Adds attributes to span tags to `MarkdownRemark` using [remark-bracketed-spans](
 
 ## How to use
 
-Leverage transformer plugin with syntax below:
+Leverage remark plugin with syntax below:
 
 ```markdown
 [text in span]{.class .other-class id=anything another=example}
