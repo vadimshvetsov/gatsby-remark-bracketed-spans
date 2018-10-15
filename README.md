@@ -8,7 +8,7 @@ Adds attributes to span tags to `MarkdownRemark` using [remark-bracketed-spans](
 
 ## How to use
 
-Leverage parser with syntax below:
+Leverage transformer plugin with syntax below:
 
 ```markdown
 [text in span]{.class .other-class id=anything another=example}
@@ -28,7 +28,7 @@ plugins: [
     resolve: `gatsby-transformer-remark`,
     options: {
       plugins: [
-        "gatsby-remark-custom-blocks",
+        "gatsby-remark-bracketed-spans",
       ],
     },
   },
