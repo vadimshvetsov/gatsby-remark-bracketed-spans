@@ -1,3 +1,5 @@
-const remarkBracketedSpans = require(`remark-bracketed-spans`);
+const remarkBracketedSpans = require(`remark-bracketed-spans`)
 
-module.exports.setParserPlugins = () => [remarkBracketedSpans];
+const transformer = remarkBracketedSpans()
+
+module.exports = ({ markdownAST }) => transformer(markdownAST)
